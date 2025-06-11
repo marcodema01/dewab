@@ -1,3 +1,42 @@
+# dewab
+
+<p align="center">
+  <img src="https://seas.harvard.edu/sites/default/files/styles/embedded_image_large/public/2020-06/deborah_washington_brown_graduation_web.jpg">
+</p>
+
+This library is named after Dr. Deborah Washington Brown, a pioneering computer scientist who earned her PhD in Applied Mathematics from Harvard University in 1981, making her the first African American woman to receive a doctorate in computer science. Throughout her distinguished career at Bell Labs, AT&T Laboratories, and other prestigious institutions, Dr. Brown made groundbreaking contributions to artificial intelligence and speech recognition technology.
+
+---
+
+# Gemini Chat Demo
+
+This demo showcases how to use the `dewab` library to create a chat application that interacts with Google's Gemini.
+
+## How to Run
+
+1.  **Provide API Key:**
+    Open `demo/script.js` and replace `'YOUR_GEMINI_API_KEY'` with your actual Gemini API key.
+
+2.  **Start a Web Server:**
+    You need to serve the files from a local web server because of browser security policies (CORS) related to ES Modules.
+
+    If you have Node.js installed, you can use the `serve` package:
+    ```bash
+    # From the root of the `dewab_1` repository
+    npx serve
+    ```
+    Then open your browser to the URL provided by the server (usually `http://localhost:3000`) and navigate to the `demo` directory.
+
+    If you have Python 3 installed, you can use its built-in HTTP server:
+    ```bash
+    # From the root of the `dewab_1` repository
+    python3 -m http.server
+    ```
+    Then open your browser and go to `http://localhost:8000/demo/`.
+
+3.  **Chat!**
+    Once the page is loaded, you can start chatting with Gemini using text or voice.
+
 # Dewab: Unified JavaScript Library for AI, Chat, and IoT
 
 Dewab is a JavaScript library designed to simplify the development of interactive applications that combine chat interfaces, real-time device control (e.g., for IoT projects), and integration with Google's Gemini AI. It provides a unified API to manage connections, device commands, chat UI, and AI interactions, making it particularly useful for students and developers prototyping home assistant-like systems.
