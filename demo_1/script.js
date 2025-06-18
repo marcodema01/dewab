@@ -7,7 +7,7 @@ const voiceBtn = document.getElementById("voice-btn");
 const connectBtn = document.getElementById("connect-btn");
 
 // TODO: Replace with your actual Gemini API key
-const GEMINI_API_KEY = "AIzaSyBmIiCEUCHtX6I-c5ux4HQQ9xnXkuxalMA";
+const GEMINI_API_KEY = "";
 
 /**
  * Main application entry point.
